@@ -1,0 +1,11 @@
+The UN Sustainability Goal that I am choosing is #5, Target 5.6 - "Ensure universal access to sexual and reproductive health and reproductive rights as agreed in accordance with the Programme of Action of the International Conference on Population and Development and the Beijing Platform for Action and the outcome documents of their review conferences" 
+
+For the site, the main pages will be:
+1. Overview page
+2. History of women's reproductive rights in TN
+3. Current state of women's reproductive rights in TN
+4. Non-profits supporting the cause
+5. What you can do to support the cause
+6. Sources
+
+The style guide PDF in this directory will be the main style guide for the site. 
