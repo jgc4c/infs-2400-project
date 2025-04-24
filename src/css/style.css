@@ -1,3 +1,7 @@
+body {
+    background-color: #CDD3E1;
+}
+
 .navbar {
     background-color: #23356F;
 }
@@ -12,4 +16,22 @@
 
 .navbar-brand img {
     width: 20%;
+}
+
+.hero-image {
+    background-image: url('../content/hero-image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.inner-hero {
+    background-color: #23356F;
+    width: 60%;
+    text-align: center;
+    color: white;
+
 }
