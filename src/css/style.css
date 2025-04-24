@@ -1,5 +1,6 @@
 body {
     background-color: #CDD3E1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
@@ -30,8 +31,24 @@ body {
 
 .inner-hero {
     background-color: #23356F;
-    width: 60%;
+    width: auto;
     text-align: center;
     color: white;
+    padding: 20px;
+}
 
+.alert {
+    background-color: #597B7C;
+    color: white;
+}
+
+.goals {
+    display: grid;
+}
+
+.goals hr {
+    background-color: #23356F;
+    height: 10px;
+    width: 110%;
+    place-self: center;
 }
