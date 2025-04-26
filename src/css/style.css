@@ -55,6 +55,24 @@ body {
     padding: 20px;
 }
 
+.current-state-image {
+    background-image: url('../content/planned-parenthood.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.inner-current-state {
+    background-color: #23356F;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
 .alert {
     background-color: #597B7C;
     color: white;
