@@ -37,6 +37,24 @@ body {
     padding: 20px;
 }
 
+.history-image {
+    background-image: url('../content/history-image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.inner-history {
+    background-color: #23356F;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
 .alert {
     background-color: #597B7C;
     color: white;
@@ -51,4 +69,20 @@ body {
     height: 10px;
     width: 110%;
     place-self: center;
+}
+
+.history-text {
+    width: 60%;
+}
+
+.row {
+    padding: 50px;
+}
+
+.card {
+    background-color: #597B7C;
+}
+
+.card-img-top {
+    padding: 10px;
 }

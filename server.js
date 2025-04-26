@@ -8,13 +8,13 @@ app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 app.use(express.static(path.join(__dirname, 'src')));
 
-app.get('/', (req, res) => {
-    res.sendFile( path.join( __dirname, 'src', 'html', 'overview.html' ) );
-});
-
 app.get('/:page', (req, res) => {
     const { page } = req.params;
     res.sendFile( path.join( __dirname, 'src', 'html', `${page}.html` ) );
+});
+
+app.get('/', (req, res) => {
+    res.sendFile( path.join( __dirname, 'src', 'html', 'overview.html' ) );
 });
 
 app.listen(PORT, () => {
