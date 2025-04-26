@@ -3,6 +3,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.line {
+    background-color: #23356F;
+    height: 10px;
+    width: 90%;
+    margin: auto;
+}
+
 .navbar {
     background-color: #23356F;
 }
@@ -83,10 +90,24 @@ body {
 }
 
 .goals hr {
-    background-color: #23356F;
-    height: 10px;
     width: 110%;
+}
+
+.goals .line {
+    width: 80%;
+}
+
+.goals p {
+    padding: 20px;
+}
+
+.history {
+    display: grid;
+}
+
+.history hr {
     place-self: center;
+    width: 90%;
 }
 
 .history-text {
