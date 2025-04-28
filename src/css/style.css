@@ -1,12 +1,11 @@
 body {
-    background-color: #CDD3E1;
+    background-color: #ebebeb;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .line {
     background-color: #23356F;
     height: 10px;
-    width: 90%;
     margin: auto;
 }
 
@@ -125,3 +124,13 @@ body {
 .card-img-top {
     padding: 10px;
 }
+
+.abortion-map {
+    display: grid;
+    place-items: center;
+}
+
+.abortion-map img {
+    width: 80%;
+}
+
