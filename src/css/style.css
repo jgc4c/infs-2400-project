@@ -79,6 +79,24 @@ body {
     padding: 20px;
 }
 
+.non-profits-image {
+    background-image: url('../content/nashville.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.inner-non-profits {
+    background-color: #23356F;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
 .alert {
     background-color: #597B7C;
     color: white;
@@ -136,5 +154,17 @@ body {
 
 .current-text p {
     width: 80%;
+}
+
+.non-profits .card {
+    background-color: white;
+    margin: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.non-profits img {
+    height: 300px;
+    width: 600px;
 }
 
