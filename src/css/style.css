@@ -97,6 +97,24 @@ body {
     padding: 20px;
 }
 
+.actions-image {
+    background-image: url('../content/actions-image.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+.inner-actions {
+    background-color: #23356F;
+    width: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
 .alert {
     background-color: #597B7C;
     color: white;
@@ -166,5 +184,9 @@ body {
 .non-profits img {
     height: 300px;
     width: 600px;
+}
+
+.btn-primary {
+    background-color: #23356F;
 }
 
