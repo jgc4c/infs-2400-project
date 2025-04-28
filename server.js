@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname, 'src')));
 
 app.get('/:page', (req, res) => {
     const { page } = req.params;
-    res.sendFile( path.join( __dirname, 'src', 'html', `${page}.html` ) );
+    res.sendFile( path.join( __dirname, 'src', 'html', `${page}` ) );
 });
 
 app.get('/', (req, res) => {

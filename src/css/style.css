@@ -181,11 +181,6 @@ body {
     place-items: center;
 }
 
-.non-profits img {
-    height: 300px;
-    width: 600px;
-}
-
 .btn-primary {
     background-color: #23356F;
 }
