@@ -153,7 +153,7 @@ body {
     padding: 50px;
 }
 
-.card {
+.history .card {
     background-color: #597B7C;
 }
 
@@ -183,5 +183,15 @@ body {
 
 .btn-primary {
     background-color: #23356F;
+}
+
+.overview {
+    display: grid;
+    place-items: center;
+}
+
+.overview .card {
+    margin: 10px;
+    width: 80%;
 }
 
